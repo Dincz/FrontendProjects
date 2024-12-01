@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("simon-berger-twukN12EN7c-unsplash.jpg");
+    background-size: cover;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    position: relative;
+    margin:5px;
+}
+
+.clock span {
+    width: 100px;
+    height: 80px;
+    color: white;
+    background: slateblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    opacity: 0.8;
+    txet-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity:0.8;
+    background: darkblue;
+}
+
+.clock #ampm {
+    position: absolute;
+    bottom: 0;
+    font-size:20px;
+    width: 60px;
+    height: 30px;
+    background: green;
+}
